@@ -1,0 +1,50 @@
+/* contact area  */
+#contact {
+    background: #fff;
+    padding-top: 20px;
+  }
+
+  .section-title {
+    text-align:center; 
+    font-size: 30px; 
+    font-weight: strong;
+    padding: 10px;
+  }
+  
+  ul.contact-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .contact-content li {
+    padding: 0 30px;
+    flex-basis: 33%;
+    text-align: center;
+  }
+  
+  .contact-content li i {
+    font-size: 50px;
+    color: crimson;
+    margin-bottom: 25px;
+  }
+  
+  .contact-content li p {
+    margin: 0px;
+  }
+  
+  @media(max-width:800px) {
+    .contact-content li {
+      flex-basis: 100%;
+      margin-bottom: 65px;
+    }
+  
+    .contact-content li p:last-child {
+      margin-bottom: 0px;
+    }
+  
+    .contact-content li p {
+      padding: 0px;
+    }
+  }

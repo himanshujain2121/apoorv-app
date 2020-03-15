@@ -1,0 +1,62 @@
+/* Header Start */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 35px 100px 0;
+    box-sizing: border-box;
+  }
+  
+  header h2 {
+    text-transform: uppercase;
+    box-sizing: border-box;
+  }
+  
+  header nav {
+    display: flex;
+  }
+  
+  header nav li {
+    margin: 0 15px;
+    box-sizing: border-box;
+  }
+  
+  header nav li:first-child {
+    margin-left: 0px;
+    box-sizing: border-box;
+  }
+  
+  header nav li:last-child {
+    margin-right: 0px;
+    box-sizing: border-box;
+  }
+  
+  @media(max-width:1000px) {
+    header {
+      padding: 20px 50px;
+      box-sizing: border-box;
+    }
+  }
+  
+  @media(max-width:700px) {
+    header {
+      flex-direction: column;
+
+    }
+  
+    header h2 {
+      margin-bottom: 15px;
+      box-sizing: border-box;
+    }
+  
+    header nav li {
+      margin: 0 7px;
+      box-sizing: border-box;
+    }
+  }
